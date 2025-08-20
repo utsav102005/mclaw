@@ -1,0 +1,215 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+    }
+
+    header {
+        background: #f5f8fc;
+    }
+
+    .header-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header h1 {
+        max-width: 216px;
+        color: #1f2d3d;
+
+    }
+    header h1 strong {
+        font-size: 24px;
+        font-family: 'lyon', sans-serif;
+    }
+
+    header h1 span {
+        border-left: 1px solid black;
+        padding-left: 10px;
+        font-size: 14px;
+        font-weight: normal;
+        color: #6c757d;
+        display: block;
+        font-family: 'Maison Neue light', sans-serif;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        gap: 30px;
+    }
+
+    nav a {
+        font-family: 'Maison Neue', sans-serif;
+        text-decoration: none;
+        color: #1f2d3d;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+
+    .hero {
+        position: relative;
+        height: 90vh;
+        background: url('../images/section/Rectangle\ 661@2x.png') center/cover no-repeat;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: left;
+        padding: 0 60px;
+    }
+
+    .hero-content {
+        max-width: 500px;
+        padding-top: 250px;
+    }
+
+    .hero h2 {
+        font-size: 34px;
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-family: 'Maison Neue light', sans-serif;
+    }
+    .hero h6 {
+        font-size: 16px;
+       padding-left: 10px;
+        font-family: 'Maison Neue', sans-serif;
+    }
+
+    .hero-buttons {
+        display: flex;
+        gap: 15px;
+    }
+
+    .hero-buttons a {
+        padding: 10px 20px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .btn-primary {
+        color: #fff;
+        background-color: #192647;
+        border-radius: 40%;
+    }
+
+    .btn-secondary {
+        border: 1px solid #fff;
+        border-radius: 40%;
+        color: #fff;
+    }
+
+
+    .blank {
+        width: 100vw;
+        height: 811px;
+        background-color: #192647;
+        text-align: center;
+    }
+
+    .blank h3 {
+        font-size: 45px;
+        color: #fff;
+        padding-top: 150px;
+        font-family: 'Maison Neue', sans-serif;
+    }
+
+    .blank p {
+        max-width: 1000px;
+        margin: 0 auto;
+        font-size: 45px;
+        color: #fff;
+        padding-top: 50px;
+        font-family: 'Maison Neue', sans-serif;
+    }
+
+    .first{
+        margin-top: 275px;
+        display: inline-block;
+        gap: 20px;
+        width: 50px;
+        border-bottom: white 1px solid;
+    }
+
+    .third{
+          width: 100vw;
+        height: 811px;
+        padding-left: 100px;
+        background-color: transparent;
+        color: #192647;
+    }
+
+    .third h5 {
+        font-size: 20px;
+        padding-top: 200px;
+        font-family: 'Maison Neue', sans-serif;
+    }
+
+    .third h2 {
+        font-size: 45px;
+        font-family: 'Maison Neue', sans-serif;
+        max-width: 900px;
+    }
+
+    .third p {
+        max-width: 700px;
+        font-size: 20px;
+        padding-top: 20px;
+        font-family: 'Maison Neue', sans-serif;
+    }
+
+    .third a {
+        display: inline-block;
+        margin-top: 50px;
+        text-decoration: none;
+        color: #192647;
+        font-size: 20px;
+        font-family: 'Maison Neue', sans-serif;
+    }
+
+    .fourth{
+        background-color: #F8F8F8;
+        padding-left: 50px;
+        width: 100vw;
+        height: 811px;
+
+    }
+.fourth h6{
+    padding-top: 100px;
+}
+
+.fourth h2{
+    padding-top: 50px;
+    max-width: 300px;
+    font-size: 35px;
+}
+ .line{
+    max-width: 50vw;
+    border-top:black 1px solid;
+    padding: 20px;
+}
+
+.fourth h5{
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.line h5{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+}
