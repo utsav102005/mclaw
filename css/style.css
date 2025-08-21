@@ -11,9 +11,18 @@
     }
 
     header {
-        background: #f5f8fc;
+    background: #f5f8fc;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
     }
 
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1001; 
+    background: #f5f8fc; 
+}
     .header-wrapper{
         display: flex;
         align-items: center;
@@ -44,6 +53,8 @@
         display: flex;
         list-style: none;
         gap: 30px;
+        position: sticky;
+    
     }
 
     nav a {
@@ -210,6 +221,5 @@
 
 .container {
         max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 20px;
+        
 }
