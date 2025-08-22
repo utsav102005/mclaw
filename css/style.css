@@ -264,12 +264,14 @@ nav a:hover {
 
 .hero h2 {
     font-size: 34px;
+    color: white;
     margin-bottom: 20px;
     font-weight: 400;
     font-family: 'Maison Neue light', sans-serif;
 }
 
 .hero h6 {
+    color: white;
     font-size: 16px;
     padding-left: 10px;
     font-family: 'Maison Neue', sans-serif;
