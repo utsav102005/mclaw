@@ -22,9 +22,9 @@ header {
   top: 0;
   position: relative;
   justify-content: space-between;
-  padding: 20px clamp(20px, 4vw, 60px);
+  padding: 1.25rem clamp(1.25rem, 4vw, 3.75rem);
   background: #ffffff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
 }
 
 .main {
@@ -33,25 +33,25 @@ header {
 }
 
 .main h1 {
-  max-width: 300px;
+  max-width: 18.75rem;
 }
 
 header h1 {
-  max-width: min(216px, 100%);
+  max-width: min(13.5rem, 100%);
   color: #192647;
-  font-size: clamp(18px, 2.5vw, 24px);
+  font-size: clamp(1.125rem, 2.5vw, 1.5rem);
   margin: 0;
 }
 
 header h1 strong {
-  font-size: clamp(20px, 2.5vw, 24px);
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
   font-family: 'lyon', sans-serif;
 }
 
 header h1 span {
-  border-left: 1px solid black;
-  padding-left: 10px;
-  font-size: clamp(12px, 1.5vw, 14px);
+  border-left: 0.0625rem solid black;
+  padding-left: 0.625rem;
+  font-size: clamp(0.75rem, 1.5vw, 0.875rem);
   font-weight: normal;
   color: #6c757d;
   display: block;
@@ -60,18 +60,18 @@ header h1 span {
 
 header ul {
   position: absolute;
-  top: 20px;
-  right: 50px;
+  top: 1.25rem;
+  right: 3.125rem;
   display: flex;
   list-style: none;
-  gap: clamp(15px, 2vw, 30px);
+  gap: clamp(0.9375rem, 2vw, 1.875rem);
 }
 
 nav a {
   font-family: 'Maison Neue', sans-serif;
   text-decoration: none;
   color: #192647;
-  font-size: clamp(12px, 1.5vw, 14px);
+  font-size: clamp(0.75rem, 1.5vw, 0.875rem);
   font-weight: 500;
   transition: color 0.3s ease;
 }
@@ -114,40 +114,40 @@ nav a:hover {
   background-size: cover;
   height: 90vh;
   background-color: white;
-  padding: 50px;
+  padding: 3.125rem;
   margin: 0%;
 }
 
 .hero-content {
-  max-width: 500px;
-  padding-top: 250px;
+  max-width: 31.25rem;
+  padding-top: 15.625rem;
 }
 
 .hero h2 {
-  font-size: 34px;
+  font-size: 2.125rem;
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   font-weight: 400;
   font-family: 'Maison Neue light', sans-serif;
 }
 
 .hero h6 {
   color: white;
-  font-size: 16px;
-  padding-left: 10px;
+  font-size: 1rem;
+  padding-left: 0.625rem;
   font-family: 'Maison Neue', sans-serif;
 }
 
 .hero-buttons {
   display: flex;
-  gap: 15px;
+  gap: 0.9375rem;
 }
 
 .hero-buttons a {
-  padding: 10px 20px;
-  border-radius: 30px;
+  padding: 0.625rem 1.25rem;
+  border-radius: 1.875rem;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 600;
 }
 
@@ -158,7 +158,7 @@ nav a:hover {
 }
 
 .btn-secondary {
-  border: 1px solid #fff;
+  border: 0.0625rem solid #fff;
   border-radius: 40%;
   color: #fff;
 }
@@ -168,15 +168,15 @@ nav a:hover {
    ============================================== */
 .buttons {
   display: flex;
-  gap: 15px;
+  gap: 0.9375rem;
 }
 
 .btn-dark,
 .btn-light {
-  padding: 12px 25px;
-  border-radius: 25px;
+  padding: 0.75rem 1.5625rem;
+  border-radius: 1.5625rem;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 600;
   transition: all 0.3s ease;
 }
@@ -188,7 +188,7 @@ nav a:hover {
 
 .btn-light {
   background: #fff;
-  border: 1px solid #ddd;
+  border: 0.0625rem solid #ddd;
   color: #1a2940;
 }
 
@@ -200,28 +200,28 @@ nav a:hover {
 }
 
 .header-container33 {
-  max-width: 1440px;
+  max-width: 90rem;
   margin: 0 auto;
 }
 
 .mediation-intro-section {
-  padding: 80px 60px;
-  max-width: 800px;
-  height: 800px;
-  padding-left: 100px;
+  padding: 5rem 3.75rem;
+  max-width: 50rem;
+  height: 50rem;
+  padding-left: 6.25rem;
 }
 
 .mediation-intro-section h1 {
-  font-size: 36px;
+  font-size: 2.25rem;
   line-height: 1.3;
-  margin-bottom: 20px;
-  padding-top: 150px;
+  margin-bottom: 1.25rem;
+  padding-top: 9.375rem;
 }
 
 .mediation-intro-section p {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #808080;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .about-mediation-section {
@@ -239,7 +239,7 @@ nav a:hover {
 .about-mediation-left,
 .about-mediation-right {
   width: 50%;
-  min-height: 600px;
+  min-height: 37.5rem;
   box-sizing: border-box;
   color: white;
 }
@@ -259,20 +259,20 @@ nav a:hover {
 }
 
 .about-mediation-text {
-  margin: 50px;
+  margin: 3.125rem;
 }
 
 .about-mediation-text h5 {
-  margin-top: 100px;
+  margin-top: 6.25rem;
 }
 
 .about-mediation-text h1 {
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 .about-mediation-text p {
-  margin-top: 50px;
-  line-height: 30px;
+  margin-top: 3.125rem;
+  line-height: 1.875rem;
 }
 
 .about-mediation-text a {
@@ -287,19 +287,19 @@ nav a:hover {
    ============================================== */
 .faqmain {
   background-color: white;
-  max-width: 600px;
+  max-width: 37.5rem;
   margin: 0 auto;
-  padding: 20px;
+  padding: 1.25rem;
   position: relative;
 }
 
 .faq-container {
-  width: 600px;
+  width: 37.5rem;
 }
 
 .faq-item {
-  border-bottom: 1px solid #bbb;
-  padding: 15px 0;
+  border-bottom: 0.0625rem solid #bbb;
+  padding: 0.9375rem 0;
   align-items: center;
   justify-content: center;
 }
@@ -309,7 +309,7 @@ nav a:hover {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 500;
   align-items: center;
   justify-content: center;
@@ -321,19 +321,19 @@ nav a:hover {
   transition: max-height 0.3s ease, opacity 0.3s ease;
   opacity: 0;
   color: #555;
-  margin-top: 10px;
+  margin-top: 0.625rem;
   line-height: 1.5;
   align-items: center;
   justify-content: center;
 }
 
 .faq-item.active .faq-answer {
-  max-height: 300px;
+  max-height: 18.75rem;
   opacity: 1;
 }
 
 .icon {
-  font-size: 18px;
+  font-size: 1.125rem;
   transition: transform 0.3s ease;
 }
 
@@ -342,40 +342,40 @@ nav a:hover {
 }
 
 .serch {
-  margin-top: 50px;
-  margin-bottom: 100px;
-  width: 350px;
-  height: 30px;
-  border: 1px solid black;
-  border-radius: 30px;
+  margin-top: 3.125rem;
+  margin-bottom: 6.25rem;
+  width: 21.875rem;
+  height: 1.875rem;
+  border: 0.0625rem solid black;
+  border-radius: 1.875rem;
   justify-content: center;
   display: flex;
 }
 
 .serch h5 {
-  padding-left: 30px;
+  padding-left: 1.875rem;
 }
 
 .serch button {
-  margin-left: 600px;
+  margin-left: 37.5rem;
   background-color: #0077cc;
-  min-width: 100px;
-  height: 30px;
-  border-radius: 30px;
+  min-width: 6.25rem;
+  height: 1.875rem;
+  border-radius: 1.875rem;
   color: white;
 }
 
 .heading {
-  max-width: 700px;
-  padding-left: 200px;
-  padding-top: 50px;
+  max-width: 43.75rem;
+  padding-left: 12.5rem;
+  padding-top: 3.125rem;
 }
 
 /* ==============================================
    PROCESS SECTION
    ============================================== */
 .process-section {
-  height: 931px;
+  height: 58.1875rem;
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -388,7 +388,7 @@ nav a:hover {
 .process-content h5 {
   font-size: 0.9rem;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
   color: #a0a7b2;
   margin-bottom: 0.5rem;
 }
@@ -403,7 +403,7 @@ nav a:hover {
 }
 
 .step {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 0.0625rem solid #ddd;
   padding: 1rem 0;
 }
 
@@ -430,8 +430,8 @@ nav a:hover {
 
 .process-image img {
   position: absolute;
-  width: 728px;
-  height: 931px;
+  width: 45.5rem;
+  height: 58.1875rem;
   max-width: 50%;
   top: 0;
   right: 0;
@@ -439,21 +439,21 @@ nav a:hover {
 }
 
 .process {
-  padding: 10;
+  padding: 0.625rem;
   background-color: #fff;
 }
 
 .process h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  padding-left: 50px;
-  padding-top: 20px;
+  padding-left: 3.125rem;
+  padding-top: 1.25rem;
 }
 
 .process p {
-  max-width: 600px;
+  max-width: 37.5rem;
   color: #5a6270;
-  padding-left: 50px;
+  padding-left: 3.125rem;
 }
 
 .process button {
@@ -461,10 +461,10 @@ nav a:hover {
   color: #fff;
   border: none;
   padding: 0.8rem 1.6rem;
-  border-radius: 25px;
+  border-radius: 1.5625rem;
   cursor: pointer;
   font-size: 1rem;
-  margin: 60px;
+  margin: 3.75rem;
 }
 
 .process button:hover {
@@ -476,25 +476,25 @@ nav a:hover {
    ============================================== */
 .section-subtitle {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: bold;
   color: #999;
-  padding-top: 200px;
-  margin-bottom: 10px;
+  padding-top: 12.5rem;
+  margin-bottom: 0.625rem;
 }
 
 .section-title {
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 600;
-  margin-bottom: 40px;
-  max-width: 800px;
+  margin-bottom: 2.5rem;
+  max-width: 50rem;
   line-height: 1.4;
 }
 
 .content {
-  padding-top: 50px;
+  padding-top: 3.125rem;
   display: flex;
-  gap: 50px;
+  gap: 3.125rem;
 }
 
 .column {
@@ -502,17 +502,17 @@ nav a:hover {
 }
 
 .column h3 {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 15px;
+  margin-bottom: 0.9375rem;
 }
 
 .column p {
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.6;
   color: #444;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .column ul {
@@ -521,9 +521,9 @@ nav a:hover {
 }
 
 .column ul li {
-  font-size: 14px;
-  margin-bottom: 10px;
-  padding-left: 18px;
+  font-size: 0.875rem;
+  margin-bottom: 0.625rem;
+  padding-left: 1.125rem;
   position: relative;
   color: #333;
 }
@@ -533,18 +533,18 @@ nav a:hover {
   position: absolute;
   left: 0;
   color: #2a5bd7;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 hr {
   border: none;
-  border-top: 1px solid #e0e0e0;
-  margin: 10px 0 20px;
+  border-top: 0.0625rem solid #e0e0e0;
+  margin: 0.625rem 0 1.25rem;
 }
 
 .forpading {
-  padding: 50px;
-  height: 1000px;
+  padding: 3.125rem;
+  height: 62.5rem;
 }
 
 /* ==============================================
@@ -553,22 +553,22 @@ hr {
 .day-section {
   display: flex;
   flex-wrap: wrap;
-  min-height: 500px;
+  min-height: 31.25rem;
 }
 
 .day-image {
-  height: 850px;
+  height: 53.125rem;
   flex: 1;
   background: url("https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80") no-repeat center center/cover;
-  min-height: 400px;
+  min-height: 25rem;
 }
 
 .day-content {
-  height: 850px;
+  height: 53.125rem;
   flex: 1;
   background-color: #13294b;
   color: #fff;
-  padding: 60px;
+  padding: 3.75rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -576,28 +576,28 @@ hr {
 
 .day-subtitle {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: bold;
   color: #9ba8c6;
-  margin-bottom: 15px;
+  margin-bottom: 0.9375rem;
 }
 
 .day-title {
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 600;
-  margin-bottom: 25px;
+  margin-bottom: 1.5625rem;
 }
 
 .day-content p {
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 1.7;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   color: #d4d9e8;
 }
 
 .day-link {
-  margin-top: 20px;
-  font-size: 15px;
+  margin-top: 1.25rem;
+  font-size: 0.9375rem;
   font-weight: 600;
   text-decoration: none;
   color: #ffffff;
@@ -613,31 +613,31 @@ hr {
    ============================================== */
 .assist-section {
   background-color: #f2f4f8;
-  height: 400px;
+  height: 25rem;
 }
 
 .assist-text {
-  padding-top: 150px;
-  font-size: 26px;
+  padding-top: 9.375rem;
+  font-size: 1.625rem;
   font-weight: 500;
   color: #1a1a2e;
-  max-width: 700px;
+  max-width: 43.75rem;
   line-height: 1.5;
-  margin-left: 100px;
+  margin-left: 6.25rem;
 }
 
 .assist-button {
   display: inline-block;
   background-color: #0c1833;
   color: #fff;
-  padding: 12px 28px;
-  border-radius: 25px;
-  margin-top: 30px;
-  font-size: 14px;
+  padding: 0.75rem 1.75rem;
+  border-radius: 1.5625rem;
+  margin-top: 1.875rem;
+  font-size: 0.875rem;
   font-weight: bold;
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
   text-decoration: none;
-  margin-left: 100px;
+  margin-left: 6.25rem;
 }
 
 .assist-button:hover {
@@ -648,8 +648,8 @@ hr {
    CASE STUDIES SECTION
    ============================================== */
 .cs-header {
-  padding: 20px 40px;
-  border-bottom: 1px solid #ddd;
+  padding: 1.25rem 2.5rem;
+  border-bottom: 0.0625rem solid #ddd;
 }
 
 .cs-container {
@@ -664,7 +664,7 @@ hr {
 }
 
 .cs-nav a {
-  margin-left: 20px;
+  margin-left: 1.25rem;
   text-decoration: none;
   color: #444;
   font-size: 0.95rem;
@@ -676,31 +676,31 @@ hr {
 
 .cs-intro {
   text-align: left;
-  padding: 40px;
+  padding: 2.5rem;
 }
 
 .cs-subtitle {
   font-size: 1rem;
   color: #666;
-  margin-bottom: 5px;
+  margin-bottom: 0.3125rem;
 }
 
 .cs-title {
   font-size: 2rem;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .cs-tabs {
   display: flex;
-  gap: 15px;
-  margin-top: 15px;
+  gap: 0.9375rem;
+  margin-top: 0.9375rem;
 }
 
 .cs-tabs button {
-  border: 1px solid #ccc;
+  border: 0.0625rem solid #ccc;
   background: #f9f9f9;
-  padding: 10px 18px;
-  border-radius: 20px;
+  padding: 0.625rem 1.125rem;
+  border-radius: 1.25rem;
   cursor: pointer;
   font-size: 0.9rem;
 }
@@ -716,37 +716,37 @@ hr {
   display: grid;
   background-color: white;
   grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
-  padding: 40px;
+  gap: 1.5625rem;
+  padding: 2.5rem;
 }
 
 .cs-card {
-  border: 1px solid #eee;
-  border-radius: 6px;
+  border: 0.0625rem solid #eee;
+  border-radius: 0.375rem;
   overflow: hidden;
   background: #fff;
   transition: all 0.3s ease;
 }
 
 .cs-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-0.3125rem);
+  box-shadow: 0 0.375rem 0.9375rem rgba(0, 0, 0, 0.1);
 }
 
 .cs-card img {
   width: 100%;
-  height: 500px;
+  height: 31.25rem;
   object-fit: cover;
 }
 
 .cs-card-content {
-  padding: 15px;
+  padding: 0.9375rem;
 }
 
 .cs-category {
   font-size: 0.85rem;
   color: #777;
-  margin-bottom: 6px;
+  margin-bottom: 0.375rem;
 }
 
 .cs-card h2 {
@@ -757,15 +757,15 @@ hr {
 
 .cs-loadmore {
   text-align: center;
-  padding: 30px;
+  padding: 1.875rem;
 }
 
 .cs-loadmore button {
   background: #0b1c40;
   color: #fff;
   border: none;
-  padding: 12px 30px;
-  border-radius: 25px;
+  padding: 0.75rem 1.875rem;
+  border-radius: 1.5625rem;
   font-size: 1rem;
   cursor: pointer;
 }
@@ -784,45 +784,45 @@ hr {
 .cContainer {
   width: 100%;
   margin: auto;
-  padding: 40px 0;
+  padding: 2.5rem 0;
   background-color: white;
 }
 
 .cTitle {
-  font-size: 28px;
-  margin-bottom: 30px;
+  font-size: 1.75rem;
+  margin-bottom: 1.875rem;
   color: #2a2a40;
-  padding-left: 100px;
+  padding-left: 6.25rem;
 }
 
 .cContent {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
-  margin-bottom: 60px;
+  gap: 2.5rem;
+  margin-bottom: 3.75rem;
 }
 
 .cDetails {
   flex: 1;
-  min-width: 250px;
-  padding-left: 100px;
+  min-width: 15.625rem;
+  padding-left: 6.25rem;
 }
 
 .cSubTitle {
-  font-size: 18px;
-  margin-bottom: 15px;
+  font-size: 1.125rem;
+  margin-bottom: 0.9375rem;
   color: #444;
 }
 
 .cPhone,
 .cAddress {
-  margin: 8px 0;
-  font-size: 15px;
+  margin: 0.5rem 0;
+  font-size: 0.9375rem;
 }
 
 .cLinkedin {
   display: inline-block;
-  margin-top: 15px;
+  margin-top: 0.9375rem;
   text-decoration: none;
   color: #0077b5;
   font-weight: bold;
@@ -830,35 +830,35 @@ hr {
 
 .cFormBox {
   flex: 2;
-  min-width: 300px;
+  min-width: 18.75rem;
 }
 
 .cForm .cRow {
   display: flex;
-  gap: 10px;
-  margin-bottom: 15px;
+  gap: 0.625rem;
+  margin-bottom: 0.9375rem;
 }
 
 .cInput,
 .cTextarea {
   width: 100%;
-  padding: 12px;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  font-size: 14px;
+  padding: 0.75rem;
+  border: 0.0625rem solid #ddd;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
 }
 
 .cTextarea {
-  height: 120px;
-  margin-bottom: 15px;
+  height: 7.5rem;
+  margin-bottom: 0.9375rem;
 }
 
 .cButton {
   background: #2a2a40;
   color: #fff;
-  padding: 12px 20px;
+  padding: 0.75rem 1.25rem;
   border: none;
-  border-radius: 6px;
+  border-radius: 0.375rem;
   cursor: pointer;
 }
 
@@ -868,38 +868,38 @@ hr {
 
 .cOffices {
   display: flex;
-  gap: 20px;
+  gap: 1.25rem;
   flex-wrap: wrap;
-  margin: 20px;
+  margin: 1.25rem;
 }
 
 .cOfficeCard {
   flex: 1;
-  min-width: 280px;
+  min-width: 17.5rem;
   background: #fff;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   overflow: hidden;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.1875rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
 .cOfficeImg {
   width: 100%;
-  height: 400px;
+  height: 25rem;
   object-fit: cover;
 }
 
 .cOfficeInfo {
-  padding: 15px;
+  padding: 0.9375rem;
 }
 
 .cOfficeTitle {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .cOfficeText {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #555;
 }
 
@@ -918,45 +918,45 @@ hr {
   justify-content: space-between;
   align-items: flex-start;
   background: #192647;
-  padding: 40px;
+  padding: 2.5rem;
   flex-wrap: wrap;
 }
 
 .footer-left button {
-  margin-top: 30px;
-  margin-left: 50px;
-  padding: 10px;
-  border-radius: 30px;
+  margin-top: 1.875rem;
+  margin-left: 3.125rem;
+  padding: 0.625rem;
+  border-radius: 1.875rem;
   background-color: rgb(22, 22, 73);
   color: white;
-  border: 1px solid #fff;
+  border: 0.0625rem solid #fff;
 }
 
 .footer-links {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .text {
-  margin-left: 100px;
+  margin-left: 6.25rem;
 }
 
 .footer-links a {
   color: #fff;
   text-decoration: none;
-  margin-right: 20px;
+  margin-right: 1.25rem;
   font-weight: bold;
 }
 
 .footer-middle,
 .footer-right {
   flex: 1;
-  min-width: 250px;
-  padding-left: 40px;
+  min-width: 15.625rem;
+  padding-left: 2.5rem;
 }
 
 .office-title {
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .office-details {
@@ -965,17 +965,17 @@ hr {
 }
 
 .phone {
-  margin-top: 10px;
+  margin-top: 0.625rem;
   font-weight: bold;
 }
 
 .footer-logos {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .footer-logos img {
-  height: 60px;
-  margin-right: 20px;
+  height: 3.75rem;
+  margin-right: 1.25rem;
 }
 
 .main-content {
@@ -991,58 +991,58 @@ hr {
    ============================================== */
 .blank {
   width: 100%;
-  height: 811px;
+  height: 50.6875rem;
   text-align: center;
 }
 
 .blank h3 {
-  font-size: 45px;
+  font-size: 2.8125rem;
   color: #fff;
-  padding-top: 150px;
+  padding-top: 9.375rem;
   font-family: 'Maison Neue', sans-serif;
 }
 
 .blank p {
-  max-width: 1000px;
+  max-width: 62.5rem;
   margin: 0 auto;
-  font-size: 45px;
+  font-size: 2.8125rem;
   color: #fff;
-  padding-top: 50px;
+  padding-top: 3.125rem;
   font-family: 'Maison Neue', sans-serif;
 }
 
 .third {
   width: 100%;
-  height: 811px;
+  height: 50.6875rem;
   background-color: white;
   color: #192647;
 }
 
 .third h5 {
-  font-size: 20px;
-  padding-top: 200px;
+  font-size: 1.25rem;
+  padding-top: 12.5rem;
   font-family: 'Maison Neue', sans-serif;
 }
 
 .third h2 {
-  font-size: 45px;
+  font-size: 2.8125rem;
   font-family: 'Maison Neue', sans-serif;
-  max-width: 900px;
+  max-width: 56.25rem;
 }
 
 .third p {
-  max-width: 700px;
-  font-size: 20px;
-  padding-top: 20px;
+  max-width: 43.75rem;
+  font-size: 1.25rem;
+  padding-top: 1.25rem;
   font-family: 'Maison Neue', sans-serif;
 }
 
 .third a {
   display: inline-block;
-  margin-top: 50px;
+  margin-top: 3.125rem;
   text-decoration: none;
   color: #192647;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: 'Maison Neue', sans-serif;
 }
 
@@ -1050,20 +1050,20 @@ hr {
   position: relative;
   background-color: #F8F8F8;
   width: 100%;
-  height: 811px;
+  height: 50.6875rem;
 }
 
 .container11 {
-  max-width: 1440px;
+  max-width: 90rem;
   background-color: #fff;
   margin: 0 auto;
 }
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-  margin-top: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.25rem;
 }
 
 .card {
@@ -1071,69 +1071,69 @@ hr {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.1);
 }
 
 .card img {
   width: 100%;
-  height: 200px;
+  height: 12.5rem;
   object-fit: cover;
 }
 
 .card-content {
-  padding: 16px;
+  padding: 1rem;
   flex: 1;
 }
 
 .category {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #6c7a89;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 }
 
 .title {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 
 .arrow {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 32px;
-  height: 32px;
-  border: 1px solid #6c7a89;
+  width: 2rem;
+  height: 2rem;
+  border: 0.0625rem solid #6c7a89;
   border-radius: 50%;
   text-decoration: none;
   color: #192647;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .cta {
   width: 100%;
-  height: 500px;
+  height: 31.25rem;
   background: #fcfcfc;
-  padding: 100px;
+  padding: 6.25rem;
 }
 
 .cta p {
-  max-width: 600px;
-  font-size: 20px;
-  margin-bottom: 20px;
-  font-size: 36px;
-  padding-top: 60px;
+  max-width: 37.5rem;
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+  font-size: 2.25rem;
+  padding-top: 3.75rem;
 }
 
 .cta a {
   background: #192647;
   color: #fff;
-  padding: 10px 20px;
-  border-radius: 20px;
+  padding: 0.625rem 1.25rem;
+  border-radius: 1.25rem;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: bold;
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
 }
 
 /* ==============================================
@@ -1141,7 +1141,7 @@ hr {
    ============================================== */
 .center h1,
 p {
-  max-width: 600px;
+  max-width: 37.5rem;
 }
 
 .white {
