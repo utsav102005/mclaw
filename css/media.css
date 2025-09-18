@@ -1,3 +1,9 @@
+@media (max-width:1920px) {
+  .menu-btn {
+    display: none;
+  }
+}
+
 @media (max-width: 1024px) {
   .menu {
     position: absolute;
@@ -16,6 +22,35 @@
     visibility: visible;
   }
 
+  .menu-btn-close {
+    display: none;
+  }
+
+  .menu-btn {
+    display: block;
+    color: black;
+  }
+
+  .menu.active {
+    padding-top: 100px;
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+    width: 100vw;
+    height: 40vh;
+
+  }
+
+  .menu {
+    display: none;
+  }
+
   .menu li {
     margin: 15px 0px;
   }
@@ -28,7 +63,7 @@
     margin-left: 0px;
   }
 
-  .menu li{
+  .menu li {
     padding: 10px 0px;
   }
 
@@ -199,7 +234,7 @@
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 375px) {
   .main-title {
     font-size: 30px;
   }
@@ -211,9 +246,11 @@
   .mediation-paragraph {
     width: 100%;
   }
+
   h2 {
     font-size: 35px;
   }
+
   .studies-box {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -227,7 +264,7 @@
   }
 
   .img-title {
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .input-box {
@@ -240,5 +277,9 @@
 
   .consider-title {
     max-width: 100%;
+  }
+
+  .menu-btn-close {
+    display: block;
   }
 }
