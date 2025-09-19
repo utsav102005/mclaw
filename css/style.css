@@ -30,19 +30,19 @@ header {
 }
 
 .img-title {
-  font-size: 12px;
+  font-size: 10px;
   color: var(--primary-text);
 }
 
 
 .menu a {
-  font-size: 14px;
+  font-size: 15px;
   color: var(--primary-text);
   width: fit-content;
 }
 
 .menu .hover-text {
-  font-size: 14px;
+  font-size: 15px;
   color: var(--primary-text);
   padding-bottom: 5px;
 }
@@ -400,6 +400,7 @@ footer {
 
 .footer-menu li {
   padding: 30px 0px;
+  list-style:none;
 }
 
 .footer-menu li a {

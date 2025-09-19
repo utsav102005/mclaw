@@ -43,10 +43,12 @@
     flex-direction: column;
     z-index: 999;
     width: 100vw;
-    height: 40vh;
+    height: 50vh;
 
   }
-
+.menu.active{
+  color: white;
+}
   .menu {
     display: none;
   }
@@ -122,11 +124,11 @@
     margin: 10px;
   }
 
-  .big-banner {
+  .big-bg {
     position: static;
   }
 
-  .big-banner img {
+  .big-bg img {
     width: calc(100% + 32px);
     height: 420px;
     margin: 0px -16px;
@@ -138,6 +140,14 @@
 
   .tow-colum-section {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .menu a{
+    color: white;
+  }
+  .all-button{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
 }
 
@@ -188,5 +198,37 @@
 
   .menu-btn-close {
     display: block;
+  }
+}
+
+
+@media (max-width: 375px){
+  .grid-box{
+    display :flex;
+    flex-direction: column;
+  }
+  .all-button{
+    margin: 0%;
+margin-bottom:30px ;
+  }
+  .studies-contact-box{
+    display: flex;
+    flex-direction:column ;
+  }
+  .banner-content{
+    padding: 255px 0px 257px 30px;;
+  }
+  .silder-box{
+    display: flex;
+    flex-direction: column;
+  }
+  .conatct-grids{
+    flex-direction: column;
+  }
+  .menu-btn-close{
+    color: white;
+  }
+  .menu-btn-close{
+    display: none;
   }
 }
